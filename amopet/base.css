@@ -1,0 +1,177 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+ul a {
+    text-decoration: none;
+}
+.menu {
+    width: 15%;
+    background-color: #dfdddb;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #a38660;
+    min-height: 150px;
+}
+.foto {
+    width:1000px;
+    max-height: 300px;
+
+}
+.content {
+    background-color: rgb(216, 209, 197);
+    min-height: 300px;
+    padding: 20px;
+}
+
+.titulo__principal{
+    
+    text-align: center;
+}
+
+
+.servicos {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+
+  .servico {
+    background: #dfdddb;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+  
+  }
+
+  .servico__titulo{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #a38660;
+
+  }
+
+  .servico__imagem{
+    height: 200px;
+    width: 300px;
+  }
+
+  .servico__conteudo{
+    padding: 1rem;
+  }
+
+  .mapa {
+    width: 100%;
+    
+    background: linear-gradient(#FEFEFE, #888888)
+}
+
+.mapa__conteudo {
+    width: 940px;
+    padding-left: 20%;
+
+}
+
+
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+table {
+    
+    padding-top: 100px;
+    padding-left: 40%;
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    
+    padding: 8px 15px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.footer label#titleFooter {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+
+.footer {
+    background-color: #dfdddb;
+    min-height: 100px;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 2%;
+    padding-left: 1%;
+    align-items: center;
+}
+
